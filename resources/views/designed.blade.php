@@ -31,15 +31,15 @@
             <a class="nav-link nav_link_wa"  href="#"> Events</a>
         </li>
         <li class="nav-item">
-            <img src="wa_icon/menu.png" alt = "menu icon" class="icon_resize_menu">
+            <a href="#"> <img src="wa_icon/menu.png" alt = "menu icon" class="icon_resize_menu"> </a>
         </li>
     </ul>
 </nav>
 <section class="d-flex container-fluid container_fluid_style ">
     <div class="row container-fluid justify-content-center">
     <div class="col mx-3">
-        <p class="font_resize_title"><h6>Back</h6></p>
-        <img src="wa_icon/arrow-left.png" alt="arrow left icon" class="icon_resize">
+        <a class="nav-link link_wa_back" href="#"> <p class="font_resize_title"><h6>Back</h6></p> </a>
+        <a href="#"> <img src="wa_icon/arrow-left.png" alt="arrow left icon" class="icon_resize_back"> </a>
     </div>
     <div class="col  justify-content-center align-items-center mx-5">
         <p class="font_resize_title"> <h6>Category</h6></p>
@@ -59,7 +59,9 @@
         <section class="col nav_link_wa_left">
             <div class="row container-fluid div_class_style_6">
                 <div class="col div_class_style_circle">
-                    <img src="wa_icon/circle_fill_black.png" alt="circle_fill_black.png" class="icon_resize_circle_fill_black">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="background-color: black;">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    </label>
                 </div>
                 <div class="col">
                     <h5> Alternative </h5>
@@ -76,7 +78,9 @@
             </div>
             <div class="row container-fluid div_class_style_6">
                 <div class="col div_class_style_circle">
-                    <img src="wa_icon/circle_fill_black.png" alt="circle_fill_black.png" class="icon_resize_circle_fill_black">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" style="background-color: black;">
+                    <label class="form-check-label" for="exampleRadios2">
+                    </label>
                 </div>
                 <div class="col">
                     <h5> About </h5>
@@ -86,17 +90,17 @@
         <section class="col nav_link_wa_center div_class_style_4" >
             <div class="container-fluid div_class_style_4">
                 <div>
-                    <img src="wa_picture/cover1.png" alt ="artist cover" >
+                    <img src="wa_picture/cover1.png" alt ="artist cover" style="margin-left: 10px;" >
                 </div>
             </div>
             <div class="container-fluid div_class_style_3">
                 <div class="row">
                     <div class="col">
-                        <h3> Cage the Elephant</h3>
-                        <h6> Ready To Let Go</h6>
+                        <h3 style="margin-left: 10px;"> Cage the Elephant</h3>
+                        <h6 style="margin-left: 10px;"> Ready To Let Go</h6>
                     </div>
                     <div class="col">
-                        <img src="wa_icon/arrow_diagonal_up.png" alt = "see all icon" class="icon_resize_diagonal_center">
+                        <a href="#"> <img src="wa_icon/arrow_diagonal_up.png" alt = "see all icon" class="icon_resize_diagonal_center"> </a>
                     </div>
                 </div>
             </div>
@@ -159,7 +163,7 @@
                         <a class="nav-link nav_link_wa_seall" href="#"> <h6>See All </h6> </a>
                     </div>
                     <div class="col">
-                            <img src="wa_icon/arrow_diagonal_up.png" alt = "see all icon" class="icon_resize_diagonal justify-content-end">
+                        <a href="#"> <img src="wa_icon/arrow_diagonal_up.png" alt = "see all icon" class="icon_resize_diagonal justify-content-end"> </a>
                     </div>
                 </div>
             </div>
